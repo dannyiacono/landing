@@ -1,0 +1,14 @@
+.banner {
+  object-fit: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .container {
+  color: white;
+}
+
+.banner .container p {
+  margin: 40px 0px;
+}

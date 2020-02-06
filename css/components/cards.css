@@ -1,0 +1,36 @@
+#cards-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cards-container h2 {
+  text-align: center;
+}
+
+#cards-container img {
+  height: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: white;
+  font-size: 12px;
+  margin: 10px 50px;
+  padding: 40px;
+  text-align: center;
+  border: lightgrey 1px solid;
+  width: 150px;
+}

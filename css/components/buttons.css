@@ -1,0 +1,10 @@
+.btn-green {
+border-radius: 15px;
+background-color: #1DDD88;
+color: white;
+padding: 15px 20px;
+}
+
+.btn-green:hover {
+  background-color: #1DDD03;
+}
